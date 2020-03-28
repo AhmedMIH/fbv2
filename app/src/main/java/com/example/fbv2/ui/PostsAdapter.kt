@@ -1,12 +1,13 @@
-package com.example.fbv2.ui.main
+package com.example.fbv2.ui
 
-import com.example.fbv2.R
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.fbv2.model.PostModel
+import com.example.fbv2.R
+import com.example.fbv2.network.PostModel
+
 
 class PostsAdapter(var postModel: List<PostModel>) : RecyclerView.Adapter<PostsHolder>() {
 

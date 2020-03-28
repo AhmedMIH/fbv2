@@ -1,4 +1,4 @@
-package com.example.fbv2.model
+package com.example.fbv2.network
 
 import com.squareup.moshi.Json
 
